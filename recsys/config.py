@@ -1,7 +1,5 @@
 import os
 
-current_path = os.path.dirname(os.path.realpath(__file__))
-
 
 WEIGHT = {  'att-a': 1000000000,
             'att-b': 100000000,

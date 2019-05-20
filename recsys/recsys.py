@@ -4,13 +4,14 @@ Created on Sat May 18 16:08:24 2019
 
 @author: Pai
 """
-import config as cf
+from recsys import config as cf
 
 
 import json
 import pandas as pd
 
 pd.set_option('display.max_columns', None)
+
 
 
 class SkuReco():          
