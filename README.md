@@ -1,13 +1,13 @@
-## SKU Reccomendation Engine
+# SKU Reccomendation Engine
 
 
-### Setup & Project execution
-**Prerquisite**
+## Setup & Project execution
+### Prerquisite
 - Python version 3.6+ 
 - Pip (comes with Python)
 - Download all the codes and save it to your local directory
 
-**Installation Guide**
+### Installation Guide
 1. Install packages with **pip**
 > pip install pandas
 
@@ -17,7 +17,7 @@ or install with pip from requirements.txt
 2. Go to the location where the scripts located
 > cd /path/to/script/folder
 
-**Execution**
+### Execution
 
 1. Run the Python script run_recomendation.py
 
@@ -36,7 +36,7 @@ or install with pip from requirements.txt
 4. Now the result is returned
 
 
-### SKU data Changes
+## SKU data Changes
 This project comes with sample data in json format. It's located in the folder **data_source**. 
 
 To change the data source, edit the file **run_recomendation.py** in line 13.
@@ -44,7 +44,7 @@ To change the data source, edit the file **run_recomendation.py** in line 13.
 > 13 > sku_data=sr(os.path.join(current_path,'data_source/reco-sku-test-data.json'))
 
 
-### Attribute Weight Configuration 
+## Attribute Weight Configuration 
 The SKU attributes are weighed in alphabetical order which is configured in the config.py and to change this, editing the file and adjsut the weight for each attribute (larger number has higher priority)
 
 This approach is similar to the CSS Specificity
