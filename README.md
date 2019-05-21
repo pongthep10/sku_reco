@@ -18,4 +18,9 @@ or install with pip from requirements.txt
 > cd /path/to/script/folder
 
 **Execution**
-1. python run_recomendation.py
+
+1. Run the Python script run_recomendation.py
+
+>  python run_recomendation.py
+
+![alt text](https://github.com/pongthep10/sku_reco/blob/master/img/1.png)
