@@ -1,7 +1,6 @@
 # SKU Reccomendation Engine
 
 
-## Setup & Project execution
 ### Prerquisite
 - Python version 3.6+ 
 - Pip (comes with Python)
@@ -45,7 +44,7 @@ To change the data source, edit the file **run_recomendation.py** in line 13.
 
 
 ## Attribute Weight Configuration 
-The SKU attributes are weighed in alphabetical order which is configured in the config.py and to change this, editing the file and adjsut the weight for each attribute (larger number has higher priority)
+The SKU attributes are weighed in alphabetical order which is configured in the config.py and to change this, editing the file and adjust the weight for each attribute (larger number has higher priority)
 
 This approach is similar to the CSS Specificity
 
