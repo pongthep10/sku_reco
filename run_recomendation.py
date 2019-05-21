@@ -20,9 +20,12 @@ while True:
     #return all the list of recommended sku
     try:
         SKU = input("What is the SKU name? ")
-        TOP_N = input("How many recommended SKU? ")
+        TOP_N = input("How many recommended SKU? (1-20) ")
         if SKU == 'exit' or TOP_N == 'exit':
             break
+        if int(TOP_N) < 1 or int(TOP_N) > 20:
+            print("The number of SKU output out of bound")
+            continue
         get_rec_sku = sku_data.get_reco(SKU)
         
     except Exception as e:
