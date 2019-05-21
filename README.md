@@ -8,7 +8,7 @@
 - Download all the codes and save it to your local directory
 
 ### Installation Guide
-1. Install packages with **pip**
+1. Install package "pandas" with **pip**
 > pip install pandas
 
 or install with pip from requirements.txt
