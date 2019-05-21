@@ -14,7 +14,8 @@
 or install with pip from requirements.txt
 > pip install -r /path/to/requirements.txt
 
-2. Go to the location where the scripts locate
-> cd C:\Users\Pai\Desktop\true\git
+2. Go to the location where the scripts located
+> cd /path/to/script/folder
 
-3. 
+**Execution**
+1. python run_recomendation.py
