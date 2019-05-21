@@ -58,6 +58,6 @@ This approach is similar to the CSS Specificity which we can specify weight for 
 >            'att-g': 1000,
 >            'att-h': 100,
 >            'att-i': 10,
->            'att-j': 1 }
+>            'att-j': 1 
 
 
