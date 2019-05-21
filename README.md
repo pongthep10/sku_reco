@@ -32,3 +32,31 @@ or install with pip from requirements.txt
 3. After that the second prompt text asking **"How many recommended SKU? (1-20)"**. We have to input the number between 1-20. In this example we have input 3
 
 > 3
+
+4. Now the result is returned
+
+
+### SKU data & Configuration Changes
+This project comes with sample data in json format. It's located in the folder **data_source**. 
+
+To change the data source, edit the file **run_recomendation.py** in line 13.
+
+> 13 > sku_data=sr(os.path.join(current_path,'data_source/reco-sku-test-data.json'))
+
+The SKU attributes are weighed in alphabetical order which is configured in the config.py and to change this, editing the file and adjsut the weight for each attribute (larger number has higher priority)
+
+This approach is similar to the CSS Specificity
+
+>  WEIGHT = {  
+>           'att-a': 1000000000,
+>            'att-b': 100000000,
+>            'att-c': 10000000,
+>            'att-d': 1000000,
+>            'att-e': 100000,
+>            'att-f': 10000,
+>            'att-g': 1000,
+>            'att-h': 100,
+>            'att-i': 10,
+>            'att-j': 1 }
+
+
