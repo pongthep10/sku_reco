@@ -43,7 +43,7 @@ class SkuReco():
         df_rank = pd.concat([df_main, df_match_count], axis=1, sort=False)
         df_rank = pd.concat([df_rank, df_alphabetical_rank], axis=1, sort=False)
         return df_rank
-        #return df_rank.sort_values(['rank','alphabetical_score'],ascending=False).head(top_n)
+        
        
     def _load_source(self,path):
         """
