@@ -1,6 +1,3 @@
-import os
-
-
 WEIGHT = {  'att-a': 1000000000,
             'att-b': 100000000,
             'att-c': 10000000,
