@@ -37,7 +37,7 @@ or install with pip from requirements.txt
 
 
 
-## SKU data Changes
+## SKU Data Source Changes
 This project comes with sample data in json format. It's located in the folder **data_source**. 
 
 To change the data source, edit the file **run_recomendation.py** in line 13.
@@ -46,7 +46,7 @@ To change the data source, edit the file **run_recomendation.py** in line 13.
 
 
 ## Attribute Weight Configuration 
-The SKU attributes are weighed in alphabetical order which is configured in the config.py and to change this, editing the file and adjust the weight for each attribute (larger number has higher priority)
+The SKU attributes are weighed in alphabetical order which is configured in the config.py and to change this, editing the file and adjust the weight for each attribute (larger number is higher priority)
 
 This approach is similar to the CSS Specificity which we can specify weight for priority in making order.
 
