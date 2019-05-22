@@ -1,7 +1,7 @@
 # SKU Reccomendation Engine
 
 
-### Prerquisite
+### Prerequisite
 - Python version 3.6+ 
 - Pip (comes with Python)
 - Download all the codes and save it to your local directory
@@ -22,7 +22,6 @@ or install with pip from requirements.txt
 
 >  python run_recomendation.py
 
-![alt text](https://github.com/pongthep10/sku_reco/blob/master/img/1.png)
 
 2. The prompt text is showed asking **What is the SKU name?**. We need to put the answer in the format of "sku-{number}". In this example we have input sku-1
 
@@ -32,7 +31,10 @@ or install with pip from requirements.txt
 
 > 3
 
-4. Now the result is returned
+4. Now the result is returned as followed
+
+![alt text](https://github.com/pongthep10/sku_reco/blob/master/img/1.png)
+
 
 
 ## SKU data Changes
